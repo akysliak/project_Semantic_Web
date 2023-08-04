@@ -1,0 +1,215 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ont: <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+
+@base <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> rdf:type owl:Ontology .
+
+ont:Glossogobius_giuris rdfs:label "Glossogobius giuris" .
+ont:Omobranchus_ferox rdfs:label "Omobranchus ferox" .
+ont:Animalia rdfs:label "Animalia | \u0416\u0438\u0432\u043e\u0442\u043d\u044b\u0435" .
+ont:Archaea rdfs:label "Archaea | \u0410\u0440\u0445\u0435\u0438" .
+ont:Bacteria rdfs:label "Bacteria | \u0411\u0430\u043a\u0442\u0435\u0440\u0438\u0438" .
+ont:Chromista rdfs:label "Chromista | \u0425\u0440\u043e\u043c\u0438\u0441\u0442\u044b" .
+ont:Fungi rdfs:label "Fungi | \u0413\u0440\u0438\u0431\u044b\u0301" .
+ont:Plantae rdfs:label "Plantae | \u0420\u0430\u0441\u0442\u0435\u043d\u0438\u044f" .
+ont:Protozoa rdfs:label "Protozoa | \u041f\u0440\u043e\u0441\u0442\u0435\u0439\u0448\u0438\u0435" .
+ont:Viruses rdfs:label "Viruses | \u0412\u0438\u0440\u0443\u0441\u044b" .
+ont:Class_Actinopterygii rdfs:label "Actinopterygii | \u041b\u0443\u0447\u0435\u043f\u0451\u0440\u044b\u0435 \u0440\u044b\u0431\u044b" .
+ont:Class_Amphibia rdfs:label "Amphibia | \u0417\u0435\u043c\u043d\u043e\u0432\u043e\u0434\u043d\u044b\u0435 / \u0410\u043c\u0444\u0438\u0431\u0438\u0438" .
+ont:Class_Appendicularia rdfs:label "Appendicularia | \u0410\u043f\u043f\u0435\u043d\u0434\u0438\u043a\u0443\u043b\u044f\u0440\u0438\u0438" .
+ont:Class_Ascidiacea rdfs:label "Ascidiacea | \u0410\u0441\u0446\u0438\u0301\u0434\u0438\u0438" .
+ont:Class_Aves rdfs:label "Aves | \u041f\u0442\u0438\u0446\u044b" .
+ont:Class_Cephalaspidomorphi rdfs:label "Cephalaspidomorphi | \u041d\u0435\u043f\u0430\u0440\u043d\u043e\u043d\u043e\u0437\u0434\u0440\u0451\u0432\u044b\u0435 / \u0426\u0435\u0444\u0430\u043b\u0430\u0441\u043f\u0438\u0434\u043e\u043c\u043e\u0440\u0444\u044b / \u041e\u0434\u043d\u043e\u043d\u043e\u0437\u0434\u0440\u0451\u0432\u044b\u0435" .
+ont:Class_Elasmobranchii rdfs:label "Elasmobranchii | \u041f\u043b\u0430\u0441\u0442\u0438\u043d\u043e\u0436\u0430\u0431\u0435\u0440\u043d\u044b\u0435 / \u043d\u0435\u043e\u0441\u0435\u043b\u044f\u0445\u0438\u0438" .
+ont:Class_Holocephali rdfs:label "Holocephali | \u0426\u0435\u043b\u044c\u043d\u043e\u0433\u043e\u043b\u043e\u0432\u044b\u0435 / \u0421\u043b\u0438\u0442\u043d\u043e\u0447\u0435\u0440\u0435\u043f\u043d\u044b\u0435" .
+ont:Class_Leptocardii rdfs:label "Leptocardii | \u041b\u0430\u043d\u0446\u0435\u0442\u043d\u0438\u043a\u0438" .
+ont:Class_Mammalia rdfs:label "Mammalia | \u041c\u043b\u0435\u043a\u043e\u043f\u0438\u0442\u0430\u0301\u044e\u0449\u0438\u0435" .
+ont:Class_Myxini rdfs:label "Myxini | \u041c\u0438\u043a\u0441\u0438\u043d\u044b" .
+ont:Class_Reptilia rdfs:label "Reptilia | \u041f\u0440\u0435\u0441\u043c\u044b\u043a\u0430\u044e\u0449\u0438\u0435\u0441\u044f / \u0420\u0435\u043f\u0442\u0438\u043b\u0438\u0438" .
+ont:Class_Sarcopterygii rdfs:label "Sarcopterygii | \u041b\u043e\u043f\u0430\u0441\u0442\u0435\u043f\u0451\u0440\u044b\u0435 \u0440\u044b\u0431\u044b" .
+ont:Class_Thaliacea rdfs:label "Thaliacea | \u0421\u0430\u043b\u044c\u043f\u044b" .
+ont:Phylum_Acavomonidia rdfs:label "Acavomonidia" .
+ont:Phylum_Bigyra rdfs:label "Bigyra" .
+ont:Phylum_Cercozoa rdfs:label "Cercozoa" .
+ont:Phylum_Ciliophora rdfs:label "Ciliophora" .
+ont:Phylum_Cryptista rdfs:label "Cryptista" .
+ont:Phylum_Foraminifera rdfs:label "Foraminifera" .
+ont:Phylum_Haptophyta rdfs:label "Haptophyta" .
+ont:Phylum_Heliozoa rdfs:label "Heliozoa" .
+ont:Phylum_Miozoa rdfs:label "Miozoa" .
+ont:Phylum_Ochrophyta rdfs:label "Ochrophyta" .
+ont:Phylum_Oomycota rdfs:label "Oomycota" .
+ont:Phylum_Picozoa rdfs:label "Picozoa" .
+ont:Phylum_Radiozoa rdfs:label "Radiozoa" .
+ont:Phylum_NotAssigned_Chromista rdfs:label "Not assigned, Chromista" .
+ont:Phylum_Ascomycota rdfs:label "Ascomycota | \u0410\u0441\u043a\u043e\u043c\u0438\u0446\u0435\u0442\u044b / \u0421\u0443\u043c\u0447\u0430\u0442\u044b\u0435 \u0433\u0440\u0438\u0431\u044b" .
+ont:Phylum_Basidiomycota rdfs:label "Basidiomycota | \u0411\u0430\u0437\u0438\u0434\u0438\u043e\u043c\u0438\u0446\u0435\u0442\u044b / \u0411\u0430\u0437\u0438\u0434\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u0433\u0440\u0438\u0431\u044b" .
+ont:Phylum_Chytridiomycota rdfs:label "Chytridiomycota | \u0425\u0438\u0442\u0440\u0438\u0434\u0438\u043e\u043c\u0438\u0446\u0435\u0442\u044b" .
+ont:Phylum_Glomeromycota rdfs:label "Glomeromycota | -" .
+ont:Phylum_Zygomycota rdfs:label "Zygomycota | \u0417\u0438\u0433\u043e\u043c\u0438\u043a\u043e\u0442\u0430" .
+ont:Phylum_Amoebozoa rdfs:label "Amoebozoa" .
+ont:Phylum_Calcitarcha rdfs:label "Calcitarcha" .
+ont:Phylum_Choanozoa rdfs:label "Choanozoa" .
+ont:Phylum_Euglenozoa rdfs:label "Euglenozoa" .
+ont:Phylum_Loukozoa rdfs:label "Loukozoa" .
+ont:Phylum_Metamonada rdfs:label "Metamonada" .
+ont:Phylum_Microsporidia rdfs:label "Microsporidia" .
+ont:Phylum_Mycetozoa rdfs:label "Mycetozoa" .
+ont:Phylum_Percolozoa rdfs:label "Percolozoa" .
+ont:Phylum_Sarcomastigophora rdfs:label "Sarcomastigophora" .
+ont:brackish_water rdfs:label "\u0441\u043e\u043b\u043e\u043d\u043e\u0432\u0430\u0442\u0430\u044f \u0432\u043e\u0434\u0430" .
+ont:Phylum_NotAssigned_Protozoa rdfs:label "Not assigned, Protozoa" .
+ont:distribution rdfs:label "\u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u0438\u0435" .
+ont:environment rdfs:label "\u0441\u0440\u0435\u0434\u0430 \u043e\u0431\u0438\u0442\u0430\u043d\u0438\u044f" .
+ont:synonym rdfs:label "\u0441\u0438\u043d\u043e\u043d\u0438\u043c" .
+ont:type rdfs:label "\u0442\u0438\u043f" .
+ont:scientific_name rdfs:label "\u043d\u0430\u0443\u0447\u043d\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435" .
+ont:common_name rdfs:label "\u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0435\u043d\u043d\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435" .
+ont:Phylum_Sulcozoa rdfs:label "Sulcozoa" .
+ont:The_Philippines rdfs:label "\u0424\u0438\u043b\u0438\u043f\u043f\u0438\u043d\u044b" .
+ont:Sri_Lanka rdfs:label "\u0428\u0440\u0438-\u041b\u0430\u043d\u043a\u0430" .
+ont:South_Africa rdfs:label "\u042e\u0436\u043d\u0430\u044f \u0410\u0444\u0440\u0438\u043a\u0430" .
+ont:New_Guinea rdfs:label "\u041d\u043e\u0432\u0430\u044f \u0413\u0432\u0438\u043d\u0435\u044f" .
+ont:India rdfs:label "\u0418\u043d\u0434\u0438\u044f" .
+ont:freshwater rdfs:label "\u043f\u0440\u0435\u0441\u043d\u0430\u044f \u0432\u043e\u0434\u0430" .
+ont:marine rdfs:label "\u043c\u043e\u0440\u0435" .
+ont:Awaous_gutum rdfs:label "Awaous gutum" .
+ont:Euctenogobius_striatus_Day rdfs:label "Euctenogobius striatus Day" .
+ont:Acentrogobius_giuris rdfs:label "Acentrogobius giuris" .
+ont:Omobranchus_dealmeida rdfs:label "Omobranchus dealmeida" .
+ont:Gossamer_blenny rdfs:label "Gossamer blenny" .
+ont:Tank_goby rdfs:label "Tank goby" .
+ont:Cruantus_dealmeida rdfs:label "Cruantus dealmeida" .
+ont:Omobrachus_ferox rdfs:label "Omobranchus ferox" .
+ont:Phylum_Acanthocephala rdfs:label "Acanthocephala | \u0410\u043a\u0430\u043d\u0442\u043e\u0446\u0435\u0444\u0430\u043b\u044b" .
+ont:Phylum_Annelida rdfs:label "Annelida | \u0410\u043d\u043d\u0435\u043b\u0438\u0434\u044b / \u041a\u043e\u043b\u044c\u0447\u0430\u0442\u044b\u0435 \u0447\u0435\u0440\u0432\u0438" .
+ont:Phylum_Arthropoda rdfs:label "Arthropoda | \u0427\u043b\u0435\u043d\u0438\u0441\u0442\u043e\u043d\u043e\u0433\u0438\u0435" .
+ont:Phylum_Brachiopoda rdfs:label "Brachiopoda | \u0411\u0440\u0430\u0445\u0438\u043e\u043f\u043e\u0434\u044b / \u043f\u043b\u0435\u0447\u0435\u043d\u043e\u0433\u0438\u0435" .
+ont:Phylum_Bryozoa rdfs:label "Bryozoa | \u041c\u0448\u0430\u043d\u043a\u0438" .
+ont:Phylum_Chaetognatha rdfs:label "Chaetognatha | \u0429\u0435\u0442\u0438\u043d\u043a\u043e\u0447\u0435\u043b\u044e\u0441\u0442\u043d\u044b\u0435" .
+ont:Phylum_Chordata rdfs:label "Chordata | \u0425\u043e\u0440\u0434\u043e\u0432\u044b\u0435" .
+ont:Phylum_Cnidaria rdfs:label "Cnidaria | \u041a \u043d\u0438\u0434\u0430\u0440\u0438\u0438 / \u0421\u0442\u0440\u0435\u043a\u0430\u044e\u0449\u0438\u0435" .
+ont:Phylum_Ctenophora rdfs:label "Ctenophora | \u0413\u0440\u0435\u0431\u043d\u0435\u0432\u0438\u043a\u0438" .
+ont:Phylum_Cycliophora rdfs:label "Cycliophora | \u0426\u0438\u043a\u043b\u0438\u043e\u0444\u043e\u0440\u044b" .
+ont:Phylum_Dicyemida rdfs:label "Dicyemida | \u0414\u0438\u0446\u0438\u0435\u043c\u0438\u0434\u044b" .
+ont:Phylum_Echinodermata rdfs:label "Echinodermata | \u0418\u0433\u043b\u043e\u043a\u043e\u0436\u0438\u0435" .
+ont:Phylum_Entoprocta rdfs:label "Entoprocta | \u0412\u043d\u0443\u0442\u0440\u0438\u043f\u043e\u0440\u043e\u0448\u0438\u0446\u0435\u0432\u044b\u0435" .
+ont:Phylum_Gastrotricha rdfs:label "Gastrotricha | \u0411\u0440\u044e\u0445\u043e\u0440\u0435\u0441\u043d\u0438\u0447\u043d\u044b\u0435 \u0447\u0435\u0440\u0432\u0438" .
+ont:Phylum_Gnathostomulida rdfs:label "Gnathostomulida | \u0413\u043d\u0430\u0442\u043e\u0441\u0442\u043e\u043c\u0443\u043b\u0438\u0434\u044b" .
+ont:Phylum_Hemichordata rdfs:label "Hemichordata | \u041f\u043e\u043b\u0443\u0445\u043e\u0440\u0434\u043e\u0432\u044b\u0435" .
+ont:Phylum_Micrognathozoa rdfs:label "Micrognathozoa | -" .
+ont:Phylum_Mollusca rdfs:label "Mollusca | \u041c\u044f\u0433\u043a\u043e\u0442\u0435\u043b\u044b\u0435 / \u041c\u043e\u043b\u043b\u044e\u0441\u043a\u0438" .
+ont:Phylum_Nematoda rdfs:label "Nematoda | \u041d\u0435\u043c\u0430\u0442\u043e\u0434\u044b / \u041a\u0440\u0443\u0433\u043b\u044b\u0435 \u0447\u0435\u0301\u0440\u0432\u0438" .
+ont:Phylum_Nematomorpha rdfs:label "Nematomorpha | \u0412\u043e\u043b\u043e\u0441\u0430\u0442\u0438\u043a\u0438" .
+ont:Phylum_Nemertea rdfs:label "Nemertea | \u041d\u0435\u043c\u0435\u0440\u0442\u0438\u043d\u044b" .
+ont:Phylum_Onychophora rdfs:label "Onychophora | \u041e\u043d\u0438\u0445\u043e\u0444\u043e\u0440\u044b" .
+ont:Phylum_Orthonectida rdfs:label "Orthonectida | \u041e\u0440\u0442\u043e\u043d\u0435\u043a\u0442\u0438\u0434\u044b" .
+ont:Phylum_Phoronida rdfs:label "Phoronida |\u0424\u043e\u0440\u043e\u043d\u0438\u0434\u044b" .
+ont:Phylum_Placozoa rdfs:label "Placozoa | \u041f\u043b\u0430\u0441\u0442\u0438\u043d\u0447\u0430\u0442\u044b\u0435" .
+ont:Phylum_Platyhelminthes rdfs:label "Platyhelminthes | \u041f\u043b\u043e\u0441\u043a\u0438\u0435 \u0447\u0435\u0440\u0432\u0438" .
+ont:Phylum_Porifera rdfs:label "Porifera | \u0413\u0443\u0431\u043a\u0438" .
+ont:Phylum_Rotifera rdfs:label "Rotifera | \u041a\u043e\u043b\u043e\u0432\u0440\u0430\u0442\u043a\u0438" .
+ont:Phylum_Tardigrada rdfs:label "Tardigrada | \u0422\u0438\u0445\u043e\u0445\u043e\u0434\u043a\u0438" .
+ont:Phylum_Xenacoelomorpha rdfs:label "Xenacoelomorpha | -" .
+ont:Phylum_Crenarchaeota rdfs:label "Crenarchaeota" .
+ont:Phylum_Euryarchaeota rdfs:label "Euryarchaeota" .
+ont:Phylum_Acidobacteria rdfs:label "Acidobacteria" .
+ont:Phylum_Actinobacteria rdfs:label "Actinobacteria" .
+ont:Phylum_Aquificae rdfs:label "Aquificae" .
+ont:Phylum_Armatimonadetes rdfs:label "Armatimonadetes" .
+ont:Phylum_Bacteroidetes rdfs:label "Bacteroidetes" .
+ont:Phylum_Caldiserica rdfs:label "Caldiserica" .
+ont:Phylum_Chlamydiae rdfs:label "Chlamydiae" .
+ont:Phylum_Chlorobi rdfs:label "Chlorobi" .
+ont:Phylum_Chloroflexi rdfs:label "Chloroflexi" .
+ont:Phylum_Chrysiogenetes rdfs:label "Chrysiogenetes" .
+ont:Phylum_Cyanobacteria rdfs:label "Cyanobacteria" .
+ont:Phylum_Deferribacteres rdfs:label "Deferribacteres" .
+ont:Phylum_Deinococcus-thermus rdfs:label "Deinococcus-thermus" .
+ont:Phylum_Dictyoglomi rdfs:label "Dictyoglomi" .
+ont:Phylum_Elusimicrobia rdfs:label "Elusimicrobia" .
+ont:Phylum_Fibrobacteres rdfs:label "Fibrobacteres" .
+ont:Phylum_Firmicutes rdfs:label "Firmicutes" .
+ont:Phylum_Fusobacteria rdfs:label "Fusobacteria" .
+ont:Phylum_Gemmatimonadetes rdfs:label "Gemmatimonadetes" .
+ont:Phylum_Lentisphaerae rdfs:label "Lentisphaerae" .
+ont:Phylum_Nitrospira rdfs:label "Nitrospira" .
+ont:Phylum_Planctomycetes rdfs:label "Planctomycetes" .
+ont:Phylum_Proteobacteria rdfs:label "Proteobacteria" .
+ont:Phylum_Spirochaetae rdfs:label "Spirochaetae" .
+ont:Phylum_Synergistetes rdfs:label "Synergistetes" .
+ont:Phylum_Tenericutes rdfs:label "Tenericutes" .
+ont:Phylum_Thermodesulfobacteria rdfs:label "Thermodesulfobacteria" .
+ont:Phylum_Thermotogae rdfs:label "Thermotogae" .
+ont:Phylum_Verrucomicrobia rdfs:label "Verrucomicrobia" .
+ont:Phylum_Anthocerotophyta rdfs:label "Anthocerotophyta | \u0410\u043d\u0442\u043e\u0446\u0435\u0440\u043e\u0442\u043e\u0432\u0438\u0434\u043d\u044b\u0435 / \u0410\u043d\u0442\u043e\u0446\u0435\u0440\u043e\u0442\u043e\u0444\u0438\u0301\u0442\u044b / \u0410\u043d\u0442\u043e\u0446\u0435\u0440\u043e\u0442\u043e\u0432\u044b\u0435 \u043c\u0445\u0438" .
+ont:Phylum_Bryophyta rdfs:label "Bryophyta | \u0411\u0440\u0438\u043e\u0444\u0438\u0442\u044b / \u041c\u043e\u0445\u043e\u0432\u0438\u0434\u043d\u044b\u0435 / \u041c\u0445\u0438 / \u041d\u0430\u0441\u0442\u043e\u044f\u0449\u0438\u0435 \u043c\u0445\u0438" .
+ont:Phylum_Charophyta rdfs:label "Charophyta | \u0425\u0430\u0440\u043e\u0444\u0438\u0442\u044b" .
+ont:Phylum_Chlorophyta rdfs:label "Chlorophyta | \u0417\u0435\u043b\u0451\u043d\u044b\u0435 \u0432\u043e\u0301\u0434\u043e\u0440\u043e\u0441\u043b\u0438" .
+ont:Phylum_Glaucophyta rdfs:label "Glaucophyta | \u0413\u043b\u0430\u0443\u043a\u043e\u0444\u0438\u0442\u044b / \u0413\u043b\u0430\u0443\u043a\u043e\u0444\u0438\u0442\u043e\u0432\u044b\u0435 \u0432\u043e\u0434\u043e\u0440\u043e\u0441\u043b\u0438" .
+ont:Phylum_Marchantiophyta rdfs:label "Marchantiophyta | \u041f\u0435\u0447\u0451\u043d\u043e\u0447\u043d\u044b\u0435 \u043c\u0445\u0438 / \u041f\u0435\u0447\u0451\u043d\u043e\u0447\u043d\u0438\u043a\u0438 / \u041c\u0430\u0440\u0448\u0430\u043d\u0446\u0438\u0435\u0432\u044b\u0435 \u043c\u0445\u0438\n" .
+ont:Phylum_Rhodophyta rdfs:label "Rhodophyta | \u041a\u0440\u0430\u0441\u043d\u044b\u0435 \u0432\u043e\u0434\u043e\u0440\u043e\u0441\u043b\u0438" .
+ont:Phylum_Tracheophyta rdfs:label "Tracheophyta | \u0421\u043e\u0441\u0443\u0434\u0438\u0441\u0442\u044b\u0435 \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u044f" .
+ont:Phylum_NotAssigned_Viruses rdfs:label "Not Assigned, Viruses" .
+ont:Class_Thermoprotei rdfs:label "Thermoprotei | -" .
+ont:Order_Perciformes rdfs:label "Perciformes | \u041e\u043a\u0443\u043d\u0435\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0435" .
+ont:Family_Blenniidae rdfs:label "Blenniidae | \u0421\u043e\u0431\u0430\u0447\u043a\u043e\u0432\u044b\u0435" .
+ont:Family_Gobiidae rdfs:label "Gobiidae | \u0411\u044b\u0447\u043a\u043e\u0432\u044b\u0435" .
+ont:Genus_Omobranchus rdfs:label "Omobranchus | \u041e\u043c\u043e\u0431\u0440\u0430\u043d\u0445\u0438" .
+ont:Genus_Glossogobius rdfs:label "Glossogobius | -" .
+ont:Pseudois_nayaur rdfs:label "Pseudois nayaur" .
+ont:Bhutan rdfs:label "\u0411\u0443\u0442\u0430\u043d\n" .
+ont:China rdfs:label "\u041a\u0438\u0442\u0430\u0439" .
+ont:Myanmar rdfs:label "\u041c\u044c\u044f\u043d\u043c\u0430" .
+ont:Nepal rdfs:label "\u041d\u0435\u043f\u0430\u043b" .
+ont:Pakistan rdfs:label "\u041f\u0430\u043a\u0438\u0441\u0442\u0430\u043d" .
+ont:terrestrial rdfs:label "\u043d\u0430\u0437\u0435\u043c\u043d\u0430\u044f \u0441\u0440\u0435\u0434\u0430 \u043e\u0431\u0438\u0442\u0430\u043d\u0438\u044f" .
+ont:Order_Artiodactyla rdfs:label "Artiodactyla | \u041f\u0430\u0440\u043d\u043e\u043a\u043e\u043f\u044b\u0442\u043d\u044b\u0435" .
+ont:Family_Bovidae rdfs:label "Bovidae | \u041f\u043e\u043b\u043e\u0440\u043e\u0433\u0438\u0435" .
+ont:Genus_Pseudois rdfs:label "Pseudois | \u0413\u043e\u043b\u0443\u0431\u044b\u0435 \u0431\u0430\u0440\u0430\u043d\u044b" .
+ont:Muntiacus_muntjak rdfs:label "Muntiacus muntjak" .
+ont:Bangladesh rdfs:label "\u0411\u0430\u043d\u0433\u043b\u0430\u0434\u0435\u0448" .
+ont:scrub rdfs:label "\u043a\u0443\u0441\u0442\u0430\u0440\u043d\u0438\u043a" .
+ont:forest rdfs:label "\u043b\u0435\u0441" .
+ont:grassland rdfs:label "\u043b\u0443\u0433\u0430" .
+ont:Family_Cervidae rdfs:label "Cervidae | \u041e\u043b\u0435\u043d\u0435\u0432\u044b\u0435 / \u041e\u043b\u0435\u043d\u044c\u0438" .
+ont:Genus_Muntiacus rdfs:label "Muntiacus | \u041c\u0443\u043d\u0442\u0436\u0430\u043a\u0438" .
+ont:Macaca_mulatta rdfs:label "Macaca mulatta" .
+ont:Thailand rdfs:label "\u0422\u0430\u0438\u043b\u0430\u043d\u0434" .
+ont:Afghanistan rdfs:label "\u0410\u0444\u0433\u0430\u043d\u0438\u0441\u0442\u0430\u043d" .
+ont:Vietnam rdfs:label "\u0412\u044c\u0435\u0442\u043d\u0430\u043c" .
+ont:urban_areas rdfs:label "\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u0438\u0435 \u0440\u0430\u0439\u043e\u043d\u044b" .
+ont:Order_Primates rdfs:label "Primates | \u041f\u0440\u0438\u043c\u0430\u0442\u044b" .
+ont:Superfamily_Cercopithecoidea rdfs:label "Cercopithecoidea | \u0421\u043e\u0431\u0430\u043a\u043e\u0433\u043e\u043b\u043e\u0432\u044be \u043e\u0431\u0435\u0437\u044c\u044f\u043d\u044b" .
+ont:Family_Cercopithecidae rdfs:label "Cercopithecidae | \u041c\u0430\u0440\u0442\u044b\u0448\u043a\u043e\u0432\u044b\u0435" .
+ont:Genus_Macaca rdfs:label "Macaca | \u041c\u0430\u043a\u0430\u043a\u0438" .
+ont:Halcyon_smyrnensis rdfs:label "Halcyon smyrnensis" .
+ont:Order_Coraciiformes rdfs:label "Coraciiformes | \u0420\u0430\u043a\u0448\u0435\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0435" .
+ont:Family_Alcedinidae rdfs:label "Alcedinidae | \u0417\u0438\u043c\u043e\u0440\u043e\u0434\u043a\u043e\u0432\u044b\u0435" .
+ont:Genus_Halcyon rdfs:label "Halcyon |  \u0417\u0438\u043c\u043e\u0440\u043e\u0434\u043a\u0438-\u0430\u043b\u044c\u0446\u0438\u043e\u043d\u044b" .
+ont:Spilornis_cheela rdfs:label "Spilornis cheela" .
+ont:Order_Accipitriformes rdfs:label "Accipitriformes | \u042f\u0441\u0442\u0440\u0435\u0431\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u044b\u0435" .
+ont:Family_Accipitridae rdfs:label "Accipitridae | \u042f\u0441\u0442\u0440\u0435\u0431\u0438\u043d\u044b\u0435" .
+ont:Genus_Spilornis rdfs:label "Spilornis | \u0425\u043e\u0445\u043b\u0430\u0442\u044b\u0435 \u0437\u043c\u0435\u0435\u044f\u0434\u044b" .
+ont:Phyllanthus_lawii_J_Graham rdfs:label "Phyllanthus lawii J.Graham" .
+ont:river_banks rdfs:label "\u0431\u0435\u0440\u0435\u0433\u0430 \u0440\u0435\u043a" .
+ont:Class_Magnoliopsida rdfs:label "Magnoliopsida | \u041c\u0430\u0433\u043d\u043e\u043b\u0438\u043e\u043f\u0441\u0438\u0434\u044b / \u0414\u0432\u0443\u0434\u043e\u043b\u044c\u043d\u044b\u0435" .
+ont:Order_Malpighiales rdfs:label "Malpighiales | \u041c\u0430\u043b\u044c\u043f\u0438\u0433\u0438\u0435\u0446\u0432\u0435\u0442\u043d\u044b\u0435" .
+ont:Family_Phyllanthaceae rdfs:label "Phyllanthaceae | \u0424\u0438\u043b\u043b\u0430\u043d\u0442\u043e\u0432\u044b\u0435" .
+ont:Genus_Phyllanthus rdfs:label "Phyllanthus | \u0424\u0438\u043b\u043b\u0430\u043d\u0442\u0443\u0441" .
+ont:Artocarpus_hirsutus_Lam rdfs:label "Artocarpus hirsutus Lam." .
+ont:semi-evergreen_forests rdfs:label "\u043f\u043e\u043b\u0443\u0432\u0435\u0447\u043d\u043e\u0437\u0435\u043b\u0435\u043d\u044b\u0435 \u043b\u0435\u0441\u0430" .
+ont:deciduous_forests rdfs:label "\u043b\u0438\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u043b\u0435\u0441\u0430" .
+ont:Order_Rosales rdfs:label "Rosales | \u0420\u043e\u0437\u043e\u0446\u0432\u0435\u0442\u043d\u044b\u0435" .
+ont:Family_Moraceae rdfs:label "Moraceae | \u0422\u0443\u0442\u043e\u0432\u044b\u0435" .
+ont:Genus_Artocarpus rdfs:label "Artocarpus | \u0410\u0440\u0442\u043e\u043a\u0430\u0440\u043f\u0443\u0441" .
+ont:Bronchocela_danieli rdfs:label "Bronchocela danieli" .
+ont:Order_Squamata rdfs:label "Squamata | \u0427\u0435\u0448\u0443\u0439\u0447\u0430\u0442\u044b\u0435" .
+ont:Family_Agamidae rdfs:label "Agamidae | \u0410\u0433\u0430\u043c\u043e\u0432\u044b\u0435" .
+ont:Genus_Bronchocela rdfs:label "Bronchocela | \u041a\u0430\u043b\u043e\u0442\u044b \u041a\u0430\u0443\u043f\u0430" .

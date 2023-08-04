@@ -1,0 +1,1429 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#distribution
+:distribution rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Taxonomic_tree ;
+              rdfs:range :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#environment
+:environment rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Taxonomic_tree ;
+             rdfs:range :Environment .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#common_name
+:common_name rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Taxonomic_tree ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#scientific_name
+:scientific_name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Taxonomic_tree ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#synonym
+:synonym rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Taxonomic_tree ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Animalia
+:Animalia rdf:type owl:Class ;
+          rdfs:subClassOf :Taxonomic_tree ;
+          rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Archaea
+:Archaea rdf:type owl:Class ;
+         rdfs:subClassOf :Taxonomic_tree ;
+         rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Bacteria
+:Bacteria rdf:type owl:Class ;
+          rdfs:subClassOf :Taxonomic_tree ;
+          rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Chromista
+:Chromista rdf:type owl:Class ;
+           rdfs:subClassOf :Taxonomic_tree ;
+           rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Actinopterygii
+:Class_Actinopterygii rdf:type owl:Class ;
+                      rdfs:subClassOf :Phylum_Chordata ;
+                      rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Amphibia
+:Class_Amphibia rdf:type owl:Class ;
+                rdfs:subClassOf :Phylum_Chordata ;
+                rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Appendicularia
+:Class_Appendicularia rdf:type owl:Class ;
+                      rdfs:subClassOf :Phylum_Chordata ;
+                      rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Ascidiacea
+:Class_Ascidiacea rdf:type owl:Class ;
+                  rdfs:subClassOf :Phylum_Chordata ;
+                  rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Aves
+:Class_Aves rdf:type owl:Class ;
+            rdfs:subClassOf :Phylum_Chordata ;
+            rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Cephalaspidomorphi
+:Class_Cephalaspidomorphi rdf:type owl:Class ;
+                          rdfs:subClassOf :Phylum_Chordata ;
+                          rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Elasmobranchii
+:Class_Elasmobranchii rdf:type owl:Class ;
+                      rdfs:subClassOf :Phylum_Chordata ;
+                      rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Holocephali
+:Class_Holocephali rdf:type owl:Class ;
+                   rdfs:subClassOf :Phylum_Chordata ;
+                   rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Leptocardii
+:Class_Leptocardii rdf:type owl:Class ;
+                   rdfs:subClassOf :Phylum_Chordata ;
+                   rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Magnoliopsida
+:Class_Magnoliopsida rdf:type owl:Class ;
+                     rdfs:subClassOf :Phylum_Tracheophyta ;
+                     rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Mammalia
+:Class_Mammalia rdf:type owl:Class ;
+                rdfs:subClassOf :Phylum_Chordata ;
+                rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Myxini
+:Class_Myxini rdf:type owl:Class ;
+              rdfs:subClassOf :Phylum_Chordata ;
+              rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Reptilia
+:Class_Reptilia rdf:type owl:Class ;
+                rdfs:subClassOf :Phylum_Chordata ;
+                rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Sarcopterygii
+:Class_Sarcopterygii rdf:type owl:Class ;
+                     rdfs:subClassOf :Phylum_Chordata ;
+                     rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Thaliacea
+:Class_Thaliacea rdf:type owl:Class ;
+                 rdfs:subClassOf :Phylum_Chordata ;
+                 rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Class_Thermoprotei
+:Class_Thermoprotei rdf:type owl:Class ;
+                    rdfs:subClassOf :Phylum_Crenarchaeota ;
+                    rdfs:comment "class" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Country
+:Country rdf:type owl:Class ;
+         owl:disjointWith :Environment ,
+                          :Taxonomic_tree .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Environment
+:Environment rdf:type owl:Class ;
+             owl:disjointWith :Taxonomic_tree .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Accipitridae
+:Family_Accipitridae rdf:type owl:Class ;
+                     rdfs:subClassOf :Order_Accipitriformes ;
+                     rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Agamidae
+:Family_Agamidae rdf:type owl:Class ;
+                 rdfs:subClassOf :Order_Squamata ;
+                 rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Alcedinidae
+:Family_Alcedinidae rdf:type owl:Class ;
+                    rdfs:subClassOf :Order_Coraciiformes ;
+                    rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Blenniidae
+:Family_Blenniidae rdf:type owl:Class ;
+                   rdfs:subClassOf :Order_Perciformes ;
+                   owl:disjointWith :Family_Gobiidae ;
+                   rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Bovidae
+:Family_Bovidae rdf:type owl:Class ;
+                rdfs:subClassOf :Order_Artiodactyla ;
+                owl:disjointWith :Family_Cervidae ;
+                rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Cercopithecidae
+:Family_Cercopithecidae rdf:type owl:Class ;
+                        rdfs:subClassOf :Superfamily_Cercopithecoidea ;
+                        rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Cervidae
+:Family_Cervidae rdf:type owl:Class ;
+                 rdfs:subClassOf :Order_Artiodactyla ;
+                 rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Gobiidae
+:Family_Gobiidae rdf:type owl:Class ;
+                 rdfs:subClassOf :Order_Perciformes ;
+                 rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Moraceae
+:Family_Moraceae rdf:type owl:Class ;
+                 rdfs:subClassOf :Order_Rosales ;
+                 rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Family_Phyllanthaceae
+:Family_Phyllanthaceae rdf:type owl:Class ;
+                       rdfs:subClassOf :Order_Malpighiales ;
+                       rdfs:comment "family" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Fungi
+:Fungi rdf:type owl:Class ;
+       rdfs:subClassOf :Taxonomic_tree ;
+       rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Artocarpus
+:Genus_Artocarpus rdf:type owl:Class ;
+                  rdfs:subClassOf :Family_Moraceae ;
+                  rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Bronchocela
+:Genus_Bronchocela rdf:type owl:Class ;
+                   rdfs:subClassOf :Family_Agamidae .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Glossogobius
+:Genus_Glossogobius rdf:type owl:Class ;
+                    rdfs:subClassOf :Family_Gobiidae ;
+                    rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Halcyon
+:Genus_Halcyon rdf:type owl:Class ;
+               rdfs:subClassOf :Family_Alcedinidae ;
+               rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Macaca
+:Genus_Macaca rdf:type owl:Class ;
+              rdfs:subClassOf :Family_Cercopithecidae ;
+              rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Muntiacus
+:Genus_Muntiacus rdf:type owl:Class ;
+                 rdfs:subClassOf :Family_Cervidae ;
+                 rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Omobranchus
+:Genus_Omobranchus rdf:type owl:Class ;
+                   rdfs:subClassOf :Family_Blenniidae ;
+                   rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Phyllanthus
+:Genus_Phyllanthus rdf:type owl:Class ;
+                   rdfs:subClassOf :Family_Phyllanthaceae ;
+                   rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Pseudois
+:Genus_Pseudois rdf:type owl:Class ;
+                rdfs:subClassOf :Family_Bovidae ;
+                rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Genus_Spilornis
+:Genus_Spilornis rdf:type owl:Class ;
+                 rdfs:subClassOf :Family_Accipitridae ;
+                 rdfs:comment "genus" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Accipitriformes
+:Order_Accipitriformes rdf:type owl:Class ;
+                       rdfs:subClassOf :Class_Aves ;
+                       owl:disjointWith :Order_Coraciiformes ;
+                       rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Artiodactyla
+:Order_Artiodactyla rdf:type owl:Class ;
+                    rdfs:subClassOf :Class_Mammalia ;
+                    owl:disjointWith :Order_Primates ;
+                    rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Coraciiformes
+:Order_Coraciiformes rdf:type owl:Class ;
+                     rdfs:subClassOf :Class_Aves ;
+                     rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Malpighiales
+:Order_Malpighiales rdf:type owl:Class ;
+                    rdfs:subClassOf :Class_Magnoliopsida ;
+                    owl:disjointWith :Order_Rosales ;
+                    rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Perciformes
+:Order_Perciformes rdf:type owl:Class ;
+                   rdfs:subClassOf :Class_Actinopterygii ;
+                   rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Primates
+:Order_Primates rdf:type owl:Class ;
+                rdfs:subClassOf :Class_Mammalia ;
+                rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Rosales
+:Order_Rosales rdf:type owl:Class ;
+               rdfs:subClassOf :Class_Magnoliopsida ;
+               rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Order_Squamata
+:Order_Squamata rdf:type owl:Class ;
+                rdfs:subClassOf :Class_Reptilia ;
+                rdfs:comment "order" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Acanthocephala
+:Phylum_Acanthocephala rdf:type owl:Class ;
+                       rdfs:subClassOf :Animalia ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Acavomonidia
+:Phylum_Acavomonidia rdf:type owl:Class ;
+                     rdfs:subClassOf :Chromista ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Acidobacteria
+:Phylum_Acidobacteria rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Actinobacteria
+:Phylum_Actinobacteria rdf:type owl:Class ;
+                       rdfs:subClassOf :Bacteria ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Amoebozoa
+:Phylum_Amoebozoa rdf:type owl:Class ;
+                  rdfs:subClassOf :Protozoa ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Annelida
+:Phylum_Annelida rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Anthocerotophyta
+:Phylum_Anthocerotophyta rdf:type owl:Class ;
+                         rdfs:subClassOf :Plantae ;
+                         rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Aquificae
+:Phylum_Aquificae rdf:type owl:Class ;
+                  rdfs:subClassOf :Bacteria ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Armatimonadetes
+:Phylum_Armatimonadetes rdf:type owl:Class ;
+                        rdfs:subClassOf :Bacteria ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Arthropoda
+:Phylum_Arthropoda rdf:type owl:Class ;
+                   rdfs:subClassOf :Animalia ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Ascomycota
+:Phylum_Ascomycota rdf:type owl:Class ;
+                   rdfs:subClassOf :Fungi ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Bacteroidetes
+:Phylum_Bacteroidetes rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Basidiomycota
+:Phylum_Basidiomycota rdf:type owl:Class ;
+                      rdfs:subClassOf :Fungi ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Bigyra
+:Phylum_Bigyra rdf:type owl:Class ;
+               rdfs:subClassOf :Chromista ;
+               rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Brachiopoda
+:Phylum_Brachiopoda rdf:type owl:Class ;
+                    rdfs:subClassOf :Animalia ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Bryophyta
+:Phylum_Bryophyta rdf:type owl:Class ;
+                  rdfs:subClassOf :Plantae ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Bryozoa
+:Phylum_Bryozoa rdf:type owl:Class ;
+                rdfs:subClassOf :Animalia ;
+                rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Calcitarcha
+:Phylum_Calcitarcha rdf:type owl:Class ;
+                    rdfs:subClassOf :Protozoa ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Caldiserica
+:Phylum_Caldiserica rdf:type owl:Class ;
+                    rdfs:subClassOf :Bacteria ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Cercozoa
+:Phylum_Cercozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Chromista ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chaetognatha
+:Phylum_Chaetognatha rdf:type owl:Class ;
+                     rdfs:subClassOf :Animalia ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Charophyta
+:Phylum_Charophyta rdf:type owl:Class ;
+                   rdfs:subClassOf :Plantae ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chlamydiae
+:Phylum_Chlamydiae rdf:type owl:Class ;
+                   rdfs:subClassOf :Bacteria ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chlorobi
+:Phylum_Chlorobi rdf:type owl:Class ;
+                 rdfs:subClassOf :Bacteria ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chloroflexi
+:Phylum_Chloroflexi rdf:type owl:Class ;
+                    rdfs:subClassOf :Bacteria ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chlorophyta
+:Phylum_Chlorophyta rdf:type owl:Class ;
+                    rdfs:subClassOf :Plantae ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Choanozoa
+:Phylum_Choanozoa rdf:type owl:Class ;
+                  rdfs:subClassOf :Protozoa ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chordata
+:Phylum_Chordata rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chrysiogenetes
+:Phylum_Chrysiogenetes rdf:type owl:Class ;
+                       rdfs:subClassOf :Bacteria ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Chytridiomycota
+:Phylum_Chytridiomycota rdf:type owl:Class ;
+                        rdfs:subClassOf :Fungi ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Ciliophora
+:Phylum_Ciliophora rdf:type owl:Class ;
+                   rdfs:subClassOf :Chromista ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Cnidaria
+:Phylum_Cnidaria rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Crenarchaeota
+:Phylum_Crenarchaeota rdf:type owl:Class ;
+                      rdfs:subClassOf :Archaea ;
+                      owl:disjointWith :Phylum_Euryarchaeota ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Cryptista
+:Phylum_Cryptista rdf:type owl:Class ;
+                  rdfs:subClassOf :Chromista ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Ctenophora
+:Phylum_Ctenophora rdf:type owl:Class ;
+                   rdfs:subClassOf :Animalia ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Cyanobacteria
+:Phylum_Cyanobacteria rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Cycliophora
+:Phylum_Cycliophora rdf:type owl:Class ;
+                    rdfs:subClassOf :Animalia ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Deferribacteres
+:Phylum_Deferribacteres rdf:type owl:Class ;
+                        rdfs:subClassOf :Bacteria ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Deinococcus-thermus
+:Phylum_Deinococcus-thermus rdf:type owl:Class ;
+                            rdfs:subClassOf :Bacteria ;
+                            rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Dictyoglomi
+:Phylum_Dictyoglomi rdf:type owl:Class ;
+                    rdfs:subClassOf :Bacteria ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Dicyemida
+:Phylum_Dicyemida rdf:type owl:Class ;
+                  rdfs:subClassOf :Animalia ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Echinodermata
+:Phylum_Echinodermata rdf:type owl:Class ;
+                      rdfs:subClassOf :Animalia ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Elusimicrobia
+:Phylum_Elusimicrobia rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Entoprocta
+:Phylum_Entoprocta rdf:type owl:Class ;
+                   rdfs:subClassOf :Animalia ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Euglenozoa
+:Phylum_Euglenozoa rdf:type owl:Class ;
+                   rdfs:subClassOf :Protozoa ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Euryarchaeota
+:Phylum_Euryarchaeota rdf:type owl:Class ;
+                      rdfs:subClassOf :Archaea ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Fibrobacteres
+:Phylum_Fibrobacteres rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Firmicutes
+:Phylum_Firmicutes rdf:type owl:Class ;
+                   rdfs:subClassOf :Bacteria ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Foraminifera
+:Phylum_Foraminifera rdf:type owl:Class ;
+                     rdfs:subClassOf :Chromista ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Fusobacteria
+:Phylum_Fusobacteria rdf:type owl:Class ;
+                     rdfs:subClassOf :Bacteria ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Gastrotricha
+:Phylum_Gastrotricha rdf:type owl:Class ;
+                     rdfs:subClassOf :Animalia ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Gemmatimonadetes
+:Phylum_Gemmatimonadetes rdf:type owl:Class ;
+                         rdfs:subClassOf :Bacteria ;
+                         rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Glaucophyta
+:Phylum_Glaucophyta rdf:type owl:Class ;
+                    rdfs:subClassOf :Plantae ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Glomeromycota
+:Phylum_Glomeromycota rdf:type owl:Class ;
+                      rdfs:subClassOf :Fungi ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Gnathostomulida
+:Phylum_Gnathostomulida rdf:type owl:Class ;
+                        rdfs:subClassOf :Animalia ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Haptophyta
+:Phylum_Haptophyta rdf:type owl:Class ;
+                   rdfs:subClassOf :Chromista ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Heliozoa
+:Phylum_Heliozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Chromista ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Hemichordata
+:Phylum_Hemichordata rdf:type owl:Class ;
+                     rdfs:subClassOf :Animalia ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Lentisphaerae
+:Phylum_Lentisphaerae rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Loukozoa
+:Phylum_Loukozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Protozoa ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Marchantiophyta
+:Phylum_Marchantiophyta rdf:type owl:Class ;
+                        rdfs:subClassOf :Plantae ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Metamonada
+:Phylum_Metamonada rdf:type owl:Class ;
+                   rdfs:subClassOf :Protozoa ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Micrognathozoa
+:Phylum_Micrognathozoa rdf:type owl:Class ;
+                       rdfs:subClassOf :Animalia ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Microsporidia
+:Phylum_Microsporidia rdf:type owl:Class ;
+                      rdfs:subClassOf :Protozoa ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Miozoa
+:Phylum_Miozoa rdf:type owl:Class ;
+               rdfs:subClassOf :Chromista ;
+               rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Mollusca
+:Phylum_Mollusca rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Mycetozoa
+:Phylum_Mycetozoa rdf:type owl:Class ;
+                  rdfs:subClassOf :Protozoa ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Nematoda
+:Phylum_Nematoda rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Nematomorpha
+:Phylum_Nematomorpha rdf:type owl:Class ;
+                     rdfs:subClassOf :Animalia ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Nemertea
+:Phylum_Nemertea rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Nitrospira
+:Phylum_Nitrospira rdf:type owl:Class ;
+                   rdfs:subClassOf :Bacteria ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_NotAssigned_Chromista
+:Phylum_NotAssigned_Chromista rdf:type owl:Class ;
+                              rdfs:subClassOf :Chromista ;
+                              rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_NotAssigned_Protozoa
+:Phylum_NotAssigned_Protozoa rdf:type owl:Class ;
+                             rdfs:subClassOf :Protozoa ;
+                             rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_NotAssigned_Viruses
+:Phylum_NotAssigned_Viruses rdf:type owl:Class ;
+                            rdfs:subClassOf :Viruses ;
+                            rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Ochrophyta
+:Phylum_Ochrophyta rdf:type owl:Class ;
+                   rdfs:subClassOf :Chromista ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Onychophora
+:Phylum_Onychophora rdf:type owl:Class ;
+                    rdfs:subClassOf :Animalia ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Oomycota
+:Phylum_Oomycota rdf:type owl:Class ;
+                 rdfs:subClassOf :Chromista ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Orthonectida
+:Phylum_Orthonectida rdf:type owl:Class ;
+                     rdfs:subClassOf :Animalia ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Percolozoa
+:Phylum_Percolozoa rdf:type owl:Class ;
+                   rdfs:subClassOf :Protozoa ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Phoronida
+:Phylum_Phoronida rdf:type owl:Class ;
+                  rdfs:subClassOf :Animalia ;
+                  rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Picozoa
+:Phylum_Picozoa rdf:type owl:Class ;
+                rdfs:subClassOf :Chromista ;
+                rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Placozoa
+:Phylum_Placozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Planctomycetes
+:Phylum_Planctomycetes rdf:type owl:Class ;
+                       rdfs:subClassOf :Bacteria ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Platyhelminthes
+:Phylum_Platyhelminthes rdf:type owl:Class ;
+                        rdfs:subClassOf :Animalia ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Porifera
+:Phylum_Porifera rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Proteobacteria
+:Phylum_Proteobacteria rdf:type owl:Class ;
+                       rdfs:subClassOf :Bacteria ;
+                       rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Radiozoa
+:Phylum_Radiozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Chromista ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Rhodophyta
+:Phylum_Rhodophyta rdf:type owl:Class ;
+                   rdfs:subClassOf :Plantae ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Rotifera
+:Phylum_Rotifera rdf:type owl:Class ;
+                 rdfs:subClassOf :Animalia ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Sarcomastigophora
+:Phylum_Sarcomastigophora rdf:type owl:Class ;
+                          rdfs:subClassOf :Protozoa ;
+                          rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Spirochaetae
+:Phylum_Spirochaetae rdf:type owl:Class ;
+                     rdfs:subClassOf :Bacteria ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Sulcozoa
+:Phylum_Sulcozoa rdf:type owl:Class ;
+                 rdfs:subClassOf :Protozoa ;
+                 rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Synergistetes
+:Phylum_Synergistetes rdf:type owl:Class ;
+                      rdfs:subClassOf :Bacteria ;
+                      rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Tardigrada
+:Phylum_Tardigrada rdf:type owl:Class ;
+                   rdfs:subClassOf :Animalia ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Tenericutes
+:Phylum_Tenericutes rdf:type owl:Class ;
+                    rdfs:subClassOf :Bacteria ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Thermodesulfobacteria
+:Phylum_Thermodesulfobacteria rdf:type owl:Class ;
+                              rdfs:subClassOf :Bacteria ;
+                              rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Thermotogae
+:Phylum_Thermotogae rdf:type owl:Class ;
+                    rdfs:subClassOf :Bacteria ;
+                    rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Tracheophyta
+:Phylum_Tracheophyta rdf:type owl:Class ;
+                     rdfs:subClassOf :Plantae ;
+                     rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Verrucomicrobia
+:Phylum_Verrucomicrobia rdf:type owl:Class ;
+                        rdfs:subClassOf :Bacteria ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Xenacoelomorpha
+:Phylum_Xenacoelomorpha rdf:type owl:Class ;
+                        rdfs:subClassOf :Animalia ;
+                        rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phylum_Zygomycota
+:Phylum_Zygomycota rdf:type owl:Class ;
+                   rdfs:subClassOf :Fungi ;
+                   rdfs:comment "phylum" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Plantae
+:Plantae rdf:type owl:Class ;
+         rdfs:subClassOf :Taxonomic_tree ;
+         rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Protozoa
+:Protozoa rdf:type owl:Class ;
+          rdfs:subClassOf :Taxonomic_tree ;
+          rdfs:comment "kingdom" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Superfamily_Cercopithecoidea
+:Superfamily_Cercopithecoidea rdf:type owl:Class ;
+                              rdfs:subClassOf :Order_Primates ;
+                              rdfs:comment "superfamily" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Taxonomic_tree
+:Taxonomic_tree rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Viruses
+:Viruses rdf:type owl:Class ;
+         rdfs:subClassOf :Taxonomic_tree ;
+         rdfs:comment "kingdom" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Afghanistan
+:Afghanistan rdf:type owl:NamedIndividual ,
+                      :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Artocarpus_hirsutus_Lam
+:Artocarpus_hirsutus_Lam rdf:type owl:NamedIndividual ,
+                                  :Genus_Artocarpus ;
+                         :distribution :India ;
+                         :environment :deciduous_forests ,
+                                      :semi-evergreen_forests ;
+                         :scientific_name "Artocarpus_hirsutus_Lam" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Bangladesh
+:Bangladesh rdf:type owl:NamedIndividual ,
+                     :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Bhutan
+:Bhutan rdf:type owl:NamedIndividual ,
+                 :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Bronchocela_danieli
+:Bronchocela_danieli rdf:type owl:NamedIndividual ,
+                              :Genus_Bronchocela ;
+                     :distribution :India ;
+                     :environment :terrestrial ;
+                     :scientific_name "Bronchocela_danieli" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#China
+:China rdf:type owl:NamedIndividual ,
+                :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Glossogobius_giuris
+:Glossogobius_giuris rdf:type owl:NamedIndividual ,
+                              :Genus_Glossogobius ;
+                     :distribution :India ;
+                     :environment :brackish_water ,
+                                  :freshwater ,
+                                  :marine ;
+                     :common_name "Tank_goby" ;
+                     :scientific_name "Glossogobius_giuris" ;
+                     :synonym "Acentrogobius_giuris" ,
+                              "Awaous_gutum" ,
+                              "Euctenogobius_striatus_Day" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Halcyon_smyrnensis
+:Halcyon_smyrnensis rdf:type owl:NamedIndividual ,
+                             :Genus_Halcyon ;
+                    :distribution :Bangladesh ,
+                                  :India ,
+                                  :Myanmar ,
+                                  :Pakistan ,
+                                  :Sri_Lanka ;
+                    :environment :freshwater ,
+                                 :marine ,
+                                 :terrestrial ;
+                    :scientific_name "Halcyon_smyrnensis" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#India
+:India rdf:type owl:NamedIndividual ,
+                :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Macaca_mulatta
+:Macaca_mulatta rdf:type owl:NamedIndividual ,
+                         :Genus_Macaca ;
+                :distribution :Afghanistan ,
+                              :Bangladesh ,
+                              :China ,
+                              :India ,
+                              :Myanmar ,
+                              :Nepal ,
+                              :Pakistan ,
+                              :Thailand ,
+                              :Vietnam ;
+                :environment :forest ,
+                             :scrub ,
+                             :urban_areas ;
+                :scientific_name "Macaca_mulatta" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Muntiacus_muntjak
+:Muntiacus_muntjak rdf:type owl:NamedIndividual ,
+                            :Genus_Muntiacus ;
+                   :distribution :Bangladesh ,
+                                 :Bhutan ,
+                                 :India ,
+                                 :Myanmar ;
+                   :environment :forest ,
+                                :grassland ,
+                                :scrub ;
+                   :scientific_name "Muntiacus_muntjak" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Myanmar
+:Myanmar rdf:type owl:NamedIndividual ,
+                  :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Nepal
+:Nepal rdf:type owl:NamedIndividual ,
+                :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#New_Guinea
+:New_Guinea rdf:type owl:NamedIndividual ,
+                     :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Omobranchus_ferox
+:Omobranchus_ferox rdf:type owl:NamedIndividual ,
+                            :Genus_Omobranchus ;
+                   :distribution :India ,
+                                 :New_Guinea ,
+                                 :South_Africa ,
+                                 :Sri_Lanka ,
+                                 :The_Philippines ;
+                   :environment :brackish_water ,
+                                :freshwater ;
+                   :common_name "Gossamer_blenny" ;
+                   :scientific_name "Omobranchus_ferox" ;
+                   :synonym "Cruantus_dealmeida" ,
+                            "Omobranchus_dealmeida" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Pakistan
+:Pakistan rdf:type owl:NamedIndividual ,
+                   :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Phyllanthus_lawii_J_Graham
+:Phyllanthus_lawii_J_Graham rdf:type owl:NamedIndividual ,
+                                     :Genus_Phyllanthus ;
+                            :distribution :India ;
+                            :environment :river_banks ;
+                            :scientific_name "Phyllanthus_lawii_J_Graham" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Pseudois_nayaur
+:Pseudois_nayaur rdf:type owl:NamedIndividual ,
+                          :Genus_Pseudois ;
+                 :distribution :Bhutan ,
+                               :China ,
+                               :India ,
+                               :Myanmar ,
+                               :Nepal ,
+                               :Pakistan ;
+                 :environment :terrestrial ;
+                 :scientific_name "Pseudois_nayaur" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#South_Africa
+:South_Africa rdf:type owl:NamedIndividual ,
+                       :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Spilornis_cheela
+:Spilornis_cheela rdf:type owl:NamedIndividual ,
+                           :Genus_Spilornis ;
+                  :distribution :Bangladesh ,
+                                :India ,
+                                :Myanmar ,
+                                :Pakistan ,
+                                :Sri_Lanka ;
+                  :environment :freshwater ,
+                               :terrestrial ;
+                  :scientific_name "Spilornis_cheela" .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Sri_Lanka
+:Sri_Lanka rdf:type owl:NamedIndividual ,
+                    :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Thailand
+:Thailand rdf:type owl:NamedIndividual ,
+                   :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#The_Philippines
+:The_Philippines rdf:type owl:NamedIndividual ,
+                          :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#Vietnam
+:Vietnam rdf:type owl:NamedIndividual ,
+                  :Country .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#brackish_water
+:brackish_water rdf:type owl:NamedIndividual ,
+                         :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#deciduous_forests
+:deciduous_forests rdf:type owl:NamedIndividual ,
+                            :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#forest
+:forest rdf:type owl:NamedIndividual ,
+                 :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#freshwater
+:freshwater rdf:type owl:NamedIndividual ,
+                     :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#grassland
+:grassland rdf:type owl:NamedIndividual ,
+                    :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#marine
+:marine rdf:type owl:NamedIndividual ,
+                 :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#river_banks
+:river_banks rdf:type owl:NamedIndividual ,
+                      :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#scrub
+:scrub rdf:type owl:NamedIndividual ,
+                :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#semi-evergreen_forests
+:semi-evergreen_forests rdf:type owl:NamedIndividual ,
+                                 :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#terrestrial
+:terrestrial rdf:type owl:NamedIndividual ,
+                      :Environment .
+
+
+###  http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#urban_areas
+:urban_areas rdf:type owl:NamedIndividual ,
+                      :Environment .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Animalia
+                :Archaea
+                :Bacteria
+                :Chromista
+                :Fungi
+                :Plantae
+                :Protozoa
+                :Viruses
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Class_Actinopterygii
+                :Class_Amphibia
+                :Class_Appendicularia
+                :Class_Ascidiacea
+                :Class_Aves
+                :Class_Cephalaspidomorphi
+                :Class_Elasmobranchii
+                :Class_Holocephali
+                :Class_Leptocardii
+                :Class_Mammalia
+                :Class_Myxini
+                :Class_Reptilia
+                :Class_Sarcopterygii
+                :Class_Thaliacea
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Class_Actinopterygii
+                :Class_Amphibia
+                :Class_Appendicularia
+                :Class_Ascidiacea
+                :Class_Cephalaspidomorphi
+                :Class_Elasmobranchii
+                :Class_Holocephali
+                :Class_Leptocardii
+                :Class_Mammalia
+                :Class_Myxini
+                :Class_Reptilia
+                :Class_Sarcopterygii
+                :Class_Thaliacea
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Phylum_Acavomonidia
+                :Phylum_Bigyra
+                :Phylum_Cercozoa
+                :Phylum_Ciliophora
+                :Phylum_Cryptista
+                :Phylum_Foraminifera
+                :Phylum_Haptophyta
+                :Phylum_Heliozoa
+                :Phylum_Miozoa
+                :Phylum_NotAssigned_Chromista
+                :Phylum_Ochrophyta
+                :Phylum_Oomycota
+                :Phylum_Picozoa
+                :Phylum_Radiozoa
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Phylum_Acidobacteria
+                :Phylum_Actinobacteria
+                :Phylum_Aquificae
+                :Phylum_Armatimonadetes
+                :Phylum_Bacteroidetes
+                :Phylum_Caldiserica
+                :Phylum_Chlamydiae
+                :Phylum_Chlorobi
+                :Phylum_Chloroflexi
+                :Phylum_Chrysiogenetes
+                :Phylum_Cyanobacteria
+                :Phylum_Deferribacteres
+                :Phylum_Deinococcus-thermus
+                :Phylum_Dictyoglomi
+                :Phylum_Elusimicrobia
+                :Phylum_Fibrobacteres
+                :Phylum_Firmicutes
+                :Phylum_Fusobacteria
+                :Phylum_Gemmatimonadetes
+                :Phylum_Lentisphaerae
+                :Phylum_Nitrospira
+                :Phylum_Planctomycetes
+                :Phylum_Proteobacteria
+                :Phylum_Spirochaetae
+                :Phylum_Synergistetes
+                :Phylum_Tenericutes
+                :Phylum_Thermodesulfobacteria
+                :Phylum_Thermotogae
+                :Phylum_Verrucomicrobia
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Phylum_Amoebozoa
+                :Phylum_Calcitarcha
+                :Phylum_Choanozoa
+                :Phylum_Euglenozoa
+                :Phylum_Loukozoa
+                :Phylum_Metamonada
+                :Phylum_Microsporidia
+                :Phylum_Mycetozoa
+                :Phylum_NotAssigned_Protozoa
+                :Phylum_Percolozoa
+                :Phylum_Sarcomastigophora
+                :Phylum_Sulcozoa
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Phylum_Anthocerotophyta
+                :Phylum_Bryophyta
+                :Phylum_Charophyta
+                :Phylum_Chlorophyta
+                :Phylum_Glaucophyta
+                :Phylum_Marchantiophyta
+                :Phylum_Rhodophyta
+                :Phylum_Tracheophyta
+              )
+] .
+
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :Phylum_Ascomycota
+                :Phylum_Basidiomycota
+                :Phylum_Chytridiomycota
+                :Phylum_Glomeromycota
+                :Phylum_Zygomycota
+              )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :India
+                        :New_Guinea
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :India
+                        :South_Africa
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :India
+                        :Sri_Lanka
+                      )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :India
+                        :The_Philippines
+                      )
+] .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

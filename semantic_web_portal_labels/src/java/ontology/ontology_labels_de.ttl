@@ -1,0 +1,215 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ont: <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+
+@base <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> rdf:type owl:Ontology .
+
+ont:Omobranchus_ferox rdfs:label "Omobranchus ferox" .
+ont:Glossogobius_giuris rdfs:label "Glossogobius giuris" .
+ont:Animalia rdfs:label "Animalia | Die Tiere" .
+ont:Archaea rdfs:label "Archaea | Die Archaeen" .
+ont:Bacteria rdfs:label "Bacteria | Die Bakterien" .
+ont:Chromista rdfs:label "Chromista | Die Stramenopilen / Chromista" .
+ont:Fungi rdfs:label "Fungi | Die Pilze" .
+ont:Plantae rdfs:label "Plantae | Die Pflanzen" .
+ont:Protozoa rdfs:label "Protozoa | Die Protozoen" .
+ont:Viruses rdfs:label "Viruses | Die Viren" .
+ont:Class_Actinopterygii rdfs:label "Actinopterygii | Die Strahlenflosser" .
+ont:Class_Amphibia rdfs:label "Amphibia | Die Amphibien" .
+ont:Class_Appendicularia rdfs:label "Appendicularia | Die Appendikularien" .
+ont:Class_Ascidiacea rdfs:label "Ascidiacea | Die Seescheiden" .
+ont:Class_Aves rdfs:label "Aves | Die V\u00f6gel" .
+ont:Class_Cephalaspidomorphi rdfs:label "Cephalaspidomorphi | -" .
+ont:Class_Elasmobranchii rdfs:label "Elasmobranchii | Dei Plattenkiemer" .
+ont:Class_Holocephali rdfs:label "Holocephali | Die Holocephali" .
+ont:Class_Leptocardii rdfs:label "Leptocardii | -" .
+ont:Class_Mammalia rdfs:label "Mammalia | Die S\u00e4ugetiere" .
+ont:Class_Myxini rdfs:label "Myxini | Schleimaale" .
+ont:Class_Reptilia rdfs:label "Reptilia | Die Reptilien" .
+ont:Class_Sarcopterygii rdfs:label "Sarcopterygii | Die Fleischflosser / Die Muskelflosser" .
+ont:Class_Thaliacea rdfs:label "Thaliacea | Salpen" .
+ont:Phylum_Acavomonidia rdfs:label "Acavomonidia" .
+ont:Phylum_Bigyra rdfs:label "Bigyra" .
+ont:Phylum_Cercozoa rdfs:label "Cercozoa" .
+ont:Phylum_Ciliophora rdfs:label "Ciliophora" .
+ont:Phylum_Cryptista rdfs:label "Cryptista" .
+ont:Phylum_Foraminifera rdfs:label "Foraminifera" .
+ont:Phylum_Haptophyta rdfs:label "Haptophyta" .
+ont:Phylum_Heliozoa rdfs:label "Heliozoa" .
+ont:Phylum_Miozoa rdfs:label "Miozoa" .
+ont:Phylum_Ochrophyta rdfs:label "Ochrophyta" .
+ont:Phylum_Oomycota rdfs:label "Oomycota" .
+ont:Phylum_Picozoa rdfs:label "Picozoa" .
+ont:Phylum_Radiozoa rdfs:label "Radiozoa" .
+ont:Phylum_NotAssigned_Chromista rdfs:label "Not assigned, Chromista" .
+ont:Phylum_Ascomycota rdfs:label "Ascomycota | Die Schlauchpilze" .
+ont:Phylum_Basidiomycota rdfs:label "Basidiomycota | Die St\u00e4nderpilze" .
+ont:Phylum_Chytridiomycota rdfs:label "Chytridiomycota | Die T\u00f6pfchenpilze" .
+ont:Phylum_Glomeromycota rdfs:label "Glomeromycota | -" .
+ont:Phylum_Zygomycota rdfs:label "Zygomycota | Die Jochpilze/ Die Zygomyzeten" .
+ont:Phylum_Amoebozoa rdfs:label "Amoebozoa" .
+ont:Phylum_Calcitarcha rdfs:label "Calcitarcha" .
+ont:Phylum_Choanozoa rdfs:label "Choanozoa" .
+ont:Phylum_Euglenozoa rdfs:label "Euglenozoa" .
+ont:Phylum_Loukozoa rdfs:label "Loukozoa" .
+ont:Phylum_Metamonada rdfs:label "Metamonada" .
+ont:Phylum_Microsporidia rdfs:label "Microsporidia" .
+ont:Phylum_Mycetozoa rdfs:label "Mycetozoa" .
+ont:Phylum_Percolozoa rdfs:label "Percolozoa" .
+ont:Phylum_Sarcomastigophora rdfs:label "Sarcomastigophora" .
+ont:brackish_water rdfs:label "Brackwasser" .
+ont:Phylum_NotAssigned_Protozoa rdfs:label "Not assigned, Protozoa" .
+ont:scientific_name rdfs:label "wissenschaftlicher Name" .
+ont:distribution rdfs:label "Verbreitung" .
+ont:environment rdfs:label "Lebensraum" .
+ont:synonym rdfs:label "Synonym" .
+ont:type rdfs:label "Typ" .
+ont:common_name rdfs:label "allgemeiner Name" .
+ont:Phylum_Sulcozoa rdfs:label "Sulcozoa" .
+ont:The_Philippines rdfs:label "Die Philippinen" .
+ont:Sri_Lanka rdfs:label "Sri Lanka" .
+ont:South_Africa rdfs:label "S\u00fcdafrika" .
+ont:New_Guinea rdfs:label "Neuguinea" .
+ont:India rdfs:label "Indien" .
+ont:freshwater rdfs:label "S\u00fc\u00dfwasser" .
+ont:marine rdfs:label "Meer" .
+ont:Awaous_gutum rdfs:label "Awaous gutum" .
+ont:Euctenogobius_striatus_Day rdfs:label "Euctenogobius striatus Day" .
+ont:Acentrogobius_giuris rdfs:label "Acentrogobius giuris" .
+ont:Omobranchus_dealmeida rdfs:label "Omobranchus dealmeida" .
+ont:Gossamer_blenny rdfs:label "Gossamer blenny" .
+ont:Tank_goby rdfs:label "Tank goby" .
+ont:Cruantus_dealmeida rdfs:label "Cruantus dealmeida" .
+ont:Omobrachus_ferox rdfs:label "Omobranchus ferox" .
+ont:Phylum_Acanthocephala rdfs:label "Acanthocephala | Die Kratzw\u00fcrmer / Kratzer" .
+ont:Phylum_Annelida rdfs:label "Annelida | Die Ringelw\u00fcrmer" .
+ont:Phylum_Arthropoda rdfs:label "Arthropoda | Die Gliederf\u00fc\u00dfer" .
+ont:Phylum_Brachiopoda rdfs:label "Brachiopoda | Die Armf\u00fc\u00dfer" .
+ont:Phylum_Bryozoa rdfs:label "Bryozoa | Die Moostierchen" .
+ont:Phylum_Chaetognatha rdfs:label "Chaetognatha | Die Pfeilw\u00fcrmer" .
+ont:Phylum_Chordata rdfs:label "Chordata | Die Chordatiere" .
+ont:Phylum_Cnidaria rdfs:label "Cnidaria | Die Nesseltiere" .
+ont:Phylum_Ctenophora rdfs:label "Ctenophora | Die Kammquallen" .
+ont:Phylum_Cycliophora rdfs:label "Cycliophora | -" .
+ont:Phylum_Dicyemida rdfs:label "Dicyemida | -" .
+ont:Phylum_Echinodermata rdfs:label "Echinodermata | Die Stachelh\u00e4uter" .
+ont:Phylum_Entoprocta rdfs:label "Entoprocta | Die Kelchw\u00fcrmer / Die Kelchtiere" .
+ont:Phylum_Gastrotricha rdfs:label "Gastrotricha | Die Bauchh\u00e4rlinge" .
+ont:Phylum_Gnathostomulida rdfs:label "Gnathostomulida | Die Kieferm\u00fcndchen" .
+ont:Phylum_Hemichordata rdfs:label "Hemichordata | Die Kiemenlochtiere" .
+ont:Phylum_Micrognathozoa rdfs:label "Micrognathozoa | -" .
+ont:Phylum_Mollusca rdfs:label "Mollusca | Die Weichtiere / Mollusken" .
+ont:Phylum_Nematoda rdfs:label "Nematoda | Die Fadenw\u00fcrmer / Die Nematoden / Die \u00c4lchen" .
+ont:Phylum_Nematomorpha rdfs:label "Nematomorpha | Die Saitenw\u00fcrmer" .
+ont:Phylum_Nemertea rdfs:label "Nemertea | Die Schnurw\u00fcrmer" .
+ont:Phylum_Onychophora rdfs:label "Onychophora | Die Stummelf\u00fc\u00dfer" .
+ont:Phylum_Orthonectida rdfs:label "Orthonectida | -" .
+ont:Phylum_Phoronida rdfs:label "Phoronida | Hufeisenw\u00fcrmer" .
+ont:Phylum_Placozoa rdfs:label "Placozoa | Die Plattentiere" .
+ont:Phylum_Platyhelminthes rdfs:label "Platyhelminthes | Die Plattw\u00fcrmer" .
+ont:Phylum_Porifera rdfs:label "Porifera | Die Schw\u00e4mme" .
+ont:Phylum_Rotifera rdfs:label "Rotifera | Die R\u00e4dertierchen" .
+ont:Phylum_Tardigrada rdfs:label "Tardigrada | B\u00e4rtierchen" .
+ont:Phylum_Xenacoelomorpha rdfs:label "Xenacoelomorpha | -" .
+ont:Phylum_Crenarchaeota rdfs:label "Crenarchaeota" .
+ont:Phylum_Euryarchaeota rdfs:label "Euryarchaeota" .
+ont:Phylum_Acidobacteria rdfs:label "Acidobacteria" .
+ont:Phylum_Actinobacteria rdfs:label "Actinobacteria" .
+ont:Phylum_Aquificae rdfs:label "Aquificae" .
+ont:Phylum_Armatimonadetes rdfs:label "Armatimonadetes" .
+ont:Phylum_Bacteroidetes rdfs:label "Bacteroidetes" .
+ont:Phylum_Caldiserica rdfs:label "Caldiserica" .
+ont:Phylum_Chlamydiae rdfs:label "Chlamydiae" .
+ont:Phylum_Chlorobi rdfs:label "Chlorobi" .
+ont:Phylum_Chloroflexi rdfs:label "Chloroflexi" .
+ont:Phylum_Chrysiogenetes rdfs:label "Chrysiogenetes" .
+ont:Phylum_Cyanobacteria rdfs:label "Cyanobacteria" .
+ont:Phylum_Deferribacteres rdfs:label "Deferribacteres" .
+ont:Phylum_Deinococcus-thermus rdfs:label "Deinococcus-thermus" .
+ont:Phylum_Dictyoglomi rdfs:label "Dictyoglomi" .
+ont:Phylum_Elusimicrobia rdfs:label "Elusimicrobia" .
+ont:Phylum_Fibrobacteres rdfs:label "Fibrobacteres" .
+ont:Phylum_Firmicutes rdfs:label "Firmicutes" .
+ont:Phylum_Fusobacteria rdfs:label "Fusobacteria" .
+ont:Phylum_Gemmatimonadetes rdfs:label "Gemmatimonadetes" .
+ont:Phylum_Lentisphaerae rdfs:label "Lentisphaerae" .
+ont:Phylum_Nitrospira rdfs:label "Nitrospira" .
+ont:Phylum_Planctomycetes rdfs:label "Planctomycetes" .
+ont:Phylum_Proteobacteria rdfs:label "Proteobacteria" .
+ont:Phylum_Spirochaetae rdfs:label "Spirochaetae" .
+ont:Phylum_Synergistetes rdfs:label "Synergistetes" .
+ont:Phylum_Tenericutes rdfs:label "Tenericutes" .
+ont:Phylum_Thermodesulfobacteria rdfs:label "Thermodesulfobacteria" .
+ont:Phylum_Thermotogae rdfs:label "Thermotogae" .
+ont:Phylum_Verrucomicrobia rdfs:label "Verrucomicrobia" .
+ont:Phylum_Anthocerotophyta rdfs:label "Anthocerotophyta | Die Hornmoose" .
+ont:Phylum_Bryophyta rdfs:label "Bryophyta | Die Laubmoose" .
+ont:Phylum_Charophyta rdfs:label "Charophyta | -" .
+ont:Phylum_Chlorophyta rdfs:label "Chlorophyta | -" .
+ont:Phylum_Glaucophyta rdfs:label "Glaucophyta | -" .
+ont:Phylum_Marchantiophyta rdfs:label "Marchantiophyta | Die Lebermoose" .
+ont:Phylum_Rhodophyta rdfs:label "Rhodophyta | Die Rotalgen" .
+ont:Phylum_Tracheophyta rdfs:label "Tracheophyta | Als Gef\u00e4\u00dfpflanzen" .
+ont:Phylum_NotAssigned_Viruses rdfs:label "Not Assigned, Viruses" .
+ont:Class_Thermoprotei rdfs:label "Thermoprotei | -" .
+ont:Order_Perciformes rdfs:label "Perciformes | Die Barschartigen" .
+ont:Family_Blenniidae rdfs:label "Blenniidae | Die Schleimfische" .
+ont:Family_Gobiidae rdfs:label "Gobiidae | Die Grundeln" .
+ont:Genus_Omobranchus rdfs:label "Omobranchus | -" .
+ont:Genus_Glossogobius rdfs:label "Glossogobius | -" .
+ont:Pseudois_nayaur rdfs:label "Pseudois nayaur" .
+ont:Bhutan rdfs:label "Bhutan" .
+ont:China rdfs:label "China" .
+ont:Myanmar rdfs:label "Myanmar" .
+ont:Nepal rdfs:label "Nepal" .
+ont:Pakistan rdfs:label "Pakistan" .
+ont:terrestrial rdfs:label "Festland" .
+ont:Order_Artiodactyla rdfs:label "Artiodactyla | Die Paarhufer" .
+ont:Family_Bovidae rdfs:label "Bovidae | Die Horntr\u00e4ger / Die Rinderartigen" .
+ont:Genus_Pseudois rdfs:label "Pseudois | Blauschafe" .
+ont:Muntiacus_muntjak rdfs:label "Muntiacus muntjak" .
+ont:Bangladesh rdfs:label "Bangladesch" .
+ont:scrub rdfs:label "Buschwerk" .
+ont:forest rdfs:label "Wald" .
+ont:grassland rdfs:label "Grasland" .
+ont:Family_Cervidae rdfs:label "Cervidae | Die Hirsche / Die Geweihtr\u00e4ger" .
+ont:Genus_Muntiacus rdfs:label "Muntiacus | Die Muntjaks" .
+ont:Macaca_mulatta rdfs:label "Macaca mulatta" .
+ont:Thailand rdfs:label "Thailand" .
+ont:Afghanistan rdfs:label "Afghanistan" .
+ont:Vietnam rdfs:label "Vietnam" .
+ont:urban_areas rdfs:label "Stadtgebiete" .
+ont:Order_Primates rdfs:label "Primates | Die Primaten" .
+ont:Superfamily_Cercopithecoidea rdfs:label "Cercopithecoidea | Geschw\u00e4nzte Altweltaffen" .
+ont:Family_Cercopithecidae rdfs:label "Cercopithecidae | Meerkatzenverwandte" .
+ont:Genus_Macaca rdfs:label "Macaca | Makaken" .
+ont:Halcyon_smyrnensis rdfs:label "Halcyon smyrnensis" .
+ont:Order_Coraciiformes rdfs:label "Coraciiformes | Die Rackenartigen" .
+ont:Family_Alcedinidae rdfs:label "Alcedinidae | Die Eisv\u00f6gel" .
+ont:Genus_Halcyon rdfs:label "Halcyon | -" .
+ont:Spilornis_cheela rdfs:label "Spilornis cheela" .
+ont:Order_Accipitriformes rdfs:label "Accipitriformes | Die Greifv\u00f6gel" .
+ont:Family_Accipitridae rdfs:label "Accipitridae | Die Habichtartigen" .
+ont:Genus_Spilornis rdfs:label "Spilornis | Schlangenweihen" .
+ont:Phyllanthus_lawii_J_Graham rdfs:label "Phyllanthus lawii J.Graham" .
+ont:river_banks rdfs:label "Flussufer" .
+ont:Class_Magnoliopsida rdfs:label "Magnoliopsida | Die Einfurchenpollen-Zweikeimbl\u00e4ttrigen" .
+ont:Order_Malpighiales rdfs:label "Malpighiales | Die Malpighienartigen" .
+ont:Family_Phyllanthaceae rdfs:label "Phyllanthaceae | Die Phyllanthaceae" .
+ont:Genus_Phyllanthus rdfs:label "Phyllanthus | -" .
+ont:Artocarpus_hirsutus_Lam rdfs:label "Artocarpus hirsutus Lam." .
+ont:semi-evergreen_forests rdfs:label "halbimmergr\u00fcne W\u00e4lder" .
+ont:deciduous_forests rdfs:label "Laubw\u00e4lder" .
+ont:Order_Rosales rdfs:label "Rosales | Die Rosenartigen" .
+ont:Family_Moraceae rdfs:label "Moraceae | Die Maulbeergew\u00e4chse" .
+ont:Genus_Artocarpus rdfs:label "Artocarpus | Die Brotfruchtb\u00e4ume" .
+ont:Bronchocela_danieli rdfs:label "Bronchocela danieli" .
+ont:Order_Squamata rdfs:label "Squamata | Die Schuppenkriechtiere" .
+ont:Family_Agamidae rdfs:label "Agamidae | Die Agamen" .
+ont:Genus_Bronchocela rdfs:label "Bronchocela | Langschwanzagamen" .

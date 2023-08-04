@@ -1,0 +1,215 @@
+@prefix : <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ont: <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity#> .
+
+@base <http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> .
+
+<http://www.semanticweb.org/lenovo/ontologies/2018/7/indian_biodiversity> rdf:type owl:Ontology .
+
+ont:Omobranchus_ferox rdfs:label "Omobranchus ferox" .
+ont:Glossogobius_giuris rdfs:label "Glossogobius giuris" .
+ont:Animalia rdfs:label "Animalia" .
+ont:Archaea rdfs:label "Archaea" .
+ont:Bacteria rdfs:label "Bacteria" .
+ont:Chromista rdfs:label "Chromista" .
+ont:Fungi rdfs:label "Fungi" .
+ont:Plantae rdfs:label "Plantae" .
+ont:Protozoa rdfs:label "Protozoa" .
+ont:Viruses rdfs:label "Viruses" .
+ont:Class_Actinopterygii rdfs:label "Actinopterygii" .
+ont:Class_Amphibia rdfs:label "Amphibia" .
+ont:Class_Appendicularia rdfs:label "Appendicularia" .
+ont:Class_Ascidiacea rdfs:label "Ascidiacea" .
+ont:Class_Aves rdfs:label "Aves" .
+ont:Class_Cephalaspidomorphi rdfs:label "Cephalaspidomorphi" .
+ont:Class_Elasmobranchii rdfs:label "Elasmobranchii" .
+ont:Class_Holocephali rdfs:label "Holocephali" .
+ont:Class_Leptocardii rdfs:label "Leptocardii" .
+ont:Class_Mammalia rdfs:label "Mammalia/Mammals" .
+ont:Class_Myxini rdfs:label "Myxini" .
+ont:Class_Reptilia rdfs:label "Reptilia" .
+ont:Class_Sarcopterygii rdfs:label "Sarcopterygii" .
+ont:Class_Thaliacea rdfs:label "Thaliacea" .
+ont:Phylum_Acavomonidia rdfs:label "Acavomonidia" .
+ont:Phylum_Bigyra rdfs:label "Bigyra" .
+ont:Phylum_Cercozoa rdfs:label "Cercozoa" .
+ont:Phylum_Ciliophora rdfs:label "Ciliophora" .
+ont:Phylum_Cryptista rdfs:label "Cryptista" .
+ont:Phylum_Foraminifera rdfs:label "Foraminifera" .
+ont:Phylum_Haptophyta rdfs:label "Haptophyta" .
+ont:Phylum_Heliozoa rdfs:label "Heliozoa" .
+ont:Phylum_Miozoa rdfs:label "Miozoa" .
+ont:Phylum_Ochrophyta rdfs:label "Ochrophyta" .
+ont:Phylum_Oomycota rdfs:label "Oomycota" .
+ont:Phylum_Picozoa rdfs:label "Picozoa" .
+ont:Phylum_Radiozoa rdfs:label "Radiozoa" .
+ont:Phylum_NotAssigned_Chromista rdfs:label "Not assigned, Chromista" .
+ont:Phylum_Ascomycota rdfs:label "Ascomycota" .
+ont:Phylum_Basidiomycota rdfs:label "Basidiomycota" .
+ont:Phylum_Chytridiomycota rdfs:label "Chytridiomycota" .
+ont:Phylum_Glomeromycota rdfs:label "Glomeromycota" .
+ont:Phylum_Zygomycota rdfs:label "Zygomycota" .
+ont:Phylum_Amoebozoa rdfs:label "Amoebozoa" .
+ont:Phylum_Calcitarcha rdfs:label "Calcitarcha" .
+ont:Phylum_Choanozoa rdfs:label "Choanozoa" .
+ont:Phylum_Euglenozoa rdfs:label "Euglenozoa" .
+ont:Phylum_Loukozoa rdfs:label "Loukozoa" .
+ont:Phylum_Metamonada rdfs:label "Metamonada" .
+ont:Phylum_Microsporidia rdfs:label "Microsporidia" .
+ont:Phylum_Mycetozoa rdfs:label "Mycetozoa" .
+ont:Phylum_Percolozoa rdfs:label "Percolozoa" .
+ont:Phylum_Sarcomastigophora rdfs:label "Sarcomastigophora" .
+ont:brackish_water rdfs:label "brackish water" .
+ont:Phylum_NotAssigned_Protozoa rdfs:label "Not assigned, Protozoa" .
+ont:scientific_name rdfs:label "scientific name" .
+ont:distribution rdfs:label "distribution" .
+ont:environment rdfs:label "habitat" .
+ont:synonym rdfs:label "synonym" .
+ont:type rdfs:label "type" .
+ont:common_name rdfs:label "common name" .
+ont:Phylum_Sulcozoa rdfs:label "Sulcozoa" .
+ont:The_Philippines rdfs:label "The Philippines" .
+ont:Sri_Lanka rdfs:label "Sri Lanka" .
+ont:South_Africa rdfs:label "South Africa" .
+ont:New_Guinea rdfs:label "New Guinea" .
+ont:India rdfs:label "India" .
+ont:freshwater rdfs:label "freshwater" .
+ont:marine rdfs:label "marine" .
+ont:Awaous_gutum rdfs:label "Awaous gutum" .
+ont:Euctenogobius_striatus_Day rdfs:label "Euctenogobius striatus Day" .
+ont:Acentrogobius_giuris rdfs:label "Acentrogobius giuris" .
+ont:Omobranchus_dealmeida rdfs:label "Omobranchus dealmeida" .
+ont:Gossamer_blenny rdfs:label "Gossamer blenny" .
+ont:Tank_goby rdfs:label "Tank goby" .
+ont:Cruantus_dealmeida rdfs:label "Cruantus dealmeida" .
+ont:Omobrachus_ferox rdfs:label "Omobranchus ferox" .
+ont:Phylum_Acanthocephala rdfs:label "Acanthocephala" .
+ont:Phylum_Annelida rdfs:label "Annelida" .
+ont:Phylum_Arthropoda rdfs:label "Arthropoda" .
+ont:Phylum_Brachiopoda rdfs:label "Brachiopoda" .
+ont:Phylum_Bryozoa rdfs:label "Bryozoa" .
+ont:Phylum_Chaetognatha rdfs:label "Chaetognatha" .
+ont:Phylum_Chordata rdfs:label "Chordata" .
+ont:Phylum_Cnidaria rdfs:label "Cnidaria" .
+ont:Phylum_Ctenophora rdfs:label "Ctenophora" .
+ont:Phylum_Cycliophora rdfs:label "Cycliophora" .
+ont:Phylum_Dicyemida rdfs:label "Dicyemida" .
+ont:Phylum_Echinodermata rdfs:label "Echinodermata" .
+ont:Phylum_Entoprocta rdfs:label "Entoprocta" .
+ont:Phylum_Gastrotricha rdfs:label "Gastrotricha" .
+ont:Phylum_Gnathostomulida rdfs:label "Gnathostomulida" .
+ont:Phylum_Hemichordata rdfs:label "Hemichordata" .
+ont:Phylum_Micrognathozoa rdfs:label "Micrognathozoa" .
+ont:Phylum_Mollusca rdfs:label "Mollusca" .
+ont:Phylum_Nematoda rdfs:label "Nematoda" .
+ont:Phylum_Nematomorpha rdfs:label "Nematomorpha" .
+ont:Phylum_Nemertea rdfs:label "Nemertea" .
+ont:Phylum_Onychophora rdfs:label "Onychophora" .
+ont:Phylum_Orthonectida rdfs:label "Orthonectida" .
+ont:Phylum_Phoronida rdfs:label "Phoronida" .
+ont:Phylum_Placozoa rdfs:label "Placozoa" .
+ont:Phylum_Platyhelminthes rdfs:label "Platyhelminthes" .
+ont:Phylum_Porifera rdfs:label "Porifera" .
+ont:Phylum_Rotifera rdfs:label "Rotifera" .
+ont:Phylum_Tardigrada rdfs:label "Tardigrada" .
+ont:Phylum_Xenacoelomorpha rdfs:label "Xenacoelomorpha" .
+ont:Phylum_Crenarchaeota rdfs:label "Crenarchaeota" .
+ont:Phylum_Euryarchaeota rdfs:label "Euryarchaeota" .
+ont:Phylum_Acidobacteria rdfs:label "Acidobacteria" .
+ont:Phylum_Actinobacteria rdfs:label "Actinobacteria" .
+ont:Phylum_Aquificae rdfs:label "Aquificae" .
+ont:Phylum_Armatimonadetes rdfs:label "Armatimonadetes" .
+ont:Phylum_Bacteroidetes rdfs:label "Bacteroidetes" .
+ont:Phylum_Caldiserica rdfs:label "Caldiserica" .
+ont:Phylum_Chlamydiae rdfs:label "Chlamydiae" .
+ont:Phylum_Chlorobi rdfs:label "Chlorobi" .
+ont:Phylum_Chloroflexi rdfs:label "Chloroflexi" .
+ont:Phylum_Chrysiogenetes rdfs:label "Chrysiogenetes" .
+ont:Phylum_Cyanobacteria rdfs:label "Cyanobacteria" .
+ont:Phylum_Deferribacteres rdfs:label "Deferribacteres" .
+ont:Phylum_Deinococcus-thermus rdfs:label "Deinococcus-thermus" .
+ont:Phylum_Dictyoglomi rdfs:label "Dictyoglomi" .
+ont:Phylum_Elusimicrobia rdfs:label "Elusimicrobia" .
+ont:Phylum_Fibrobacteres rdfs:label "Fibrobacteres" .
+ont:Phylum_Firmicutes rdfs:label "Firmicutes" .
+ont:Phylum_Fusobacteria rdfs:label "Fusobacteria" .
+ont:Phylum_Gemmatimonadetes rdfs:label "Gemmatimonadetes" .
+ont:Phylum_Lentisphaerae rdfs:label "Lentisphaerae" .
+ont:Phylum_Nitrospira rdfs:label "Nitrospira" .
+ont:Phylum_Planctomycetes rdfs:label "Planctomycetes" .
+ont:Phylum_Proteobacteria rdfs:label "Proteobacteria" .
+ont:Phylum_Spirochaetae rdfs:label "Spirochaetae" .
+ont:Phylum_Synergistetes rdfs:label "Synergistetes" .
+ont:Phylum_Tenericutes rdfs:label "Tenericutes" .
+ont:Phylum_Thermodesulfobacteria rdfs:label "Thermodesulfobacteria" .
+ont:Phylum_Thermotogae rdfs:label "Thermotogae" .
+ont:Phylum_Verrucomicrobia rdfs:label "Verrucomicrobia" .
+ont:Phylum_Anthocerotophyta rdfs:label "Anthocerotophyta" .
+ont:Phylum_Bryophyta rdfs:label "Bryophyta" .
+ont:Phylum_Charophyta rdfs:label "Charophyta" .
+ont:Phylum_Chlorophyta rdfs:label "Chlorophyta" .
+ont:Phylum_Glaucophyta rdfs:label "Glaucophyta" .
+ont:Phylum_Marchantiophyta rdfs:label "Marchantiophyta" .
+ont:Phylum_Rhodophyta rdfs:label "Rhodophyta" .
+ont:Phylum_Tracheophyta rdfs:label "Tracheophyta" .
+ont:Phylum_NotAssigned_Viruses rdfs:label "Not Assigned, Viruses" .
+ont:Class_Thermoprotei rdfs:label "Thermoprotei" .
+ont:Order_Perciformes rdfs:label "Perciformes" .
+ont:Family_Blenniidae rdfs:label "Blenniidae" .
+ont:Family_Gobiidae rdfs:label "Gobiidae" .
+ont:Genus_Omobranchus rdfs:label "Omobranchus" .
+ont:Genus_Glossogobius rdfs:label "Glossogobius" .
+ont:Pseudois_nayaur rdfs:label "Pseudois nayaur" .
+ont:Bhutan rdfs:label "Bhutan" .
+ont:China rdfs:label "China" .
+ont:Myanmar rdfs:label "Myanmar" .
+ont:Nepal rdfs:label "Nepal" .
+ont:Pakistan rdfs:label "Pakistan" .
+ont:terrestrial rdfs:label "terrestrial" .
+ont:Order_Artiodactyla rdfs:label "Artiodactyla" .
+ont:Family_Bovidae rdfs:label "Bovidae" .
+ont:Genus_Pseudois rdfs:label "Pseudois" .
+ont:Muntiacus_muntjak rdfs:label "Muntiacus muntjak" .
+ont:Bangladesh rdfs:label "Bangladesh" .
+ont:scrub rdfs:label "scrub" .
+ont:forest rdfs:label "forest" .
+ont:grassland rdfs:label "grassland" .
+ont:Family_Cervidae rdfs:label "Cervidae" .
+ont:Genus_Muntiacus rdfs:label "Muntiacus" .
+ont:Macaca_mulatta rdfs:label "Macaca mulatta" .
+ont:Thailand rdfs:label "Thailand" .
+ont:Afghanistan rdfs:label "Afghanistan" .
+ont:Vietnam rdfs:label "Vietnam" .
+ont:urban_areas rdfs:label "urban areas" .
+ont:Order_Primates rdfs:label "Primates" .
+ont:Superfamily_Cercopithecoidea rdfs:label "Cercopithecoidea" .
+ont:Family_Cercopithecidae rdfs:label "Cercopithecidae" .
+ont:Genus_Macaca rdfs:label "Macaca" .
+ont:Halcyon_smyrnensis rdfs:label "Halcyon smyrnensis" .
+ont:Order_Coraciiformes rdfs:label "Coraciiformes" .
+ont:Family_Alcedinidae rdfs:label "Alcedinidae" .
+ont:Genus_Halcyon rdfs:label "Halcyon" .
+ont:Spilornis_cheela rdfs:label "Spilornis cheela" .
+ont:Order_Accipitriformes rdfs:label "Accipitriformes" .
+ont:Family_Accipitridae rdfs:label "Accipitridae" .
+ont:Genus_Spilornis rdfs:label "Spilornis" .
+ont:Phyllanthus_lawii_J_Graham rdfs:label "Phyllanthus lawii J.Graham" .
+ont:river_banks rdfs:label "river banks" .
+ont:Class_Magnoliopsida rdfs:label "Magnoliopsida" .
+ont:Order_Malpighiales rdfs:label "Malpighiales" .
+ont:Family_Phyllanthaceae rdfs:label "Phyllanthaceae" .
+ont:Genus_Phyllanthus rdfs:label "Phyllanthus" .
+ont:Artocarpus_hirsutus_Lam rdfs:label "Artocarpus hirsutus Lam." .
+ont:semi-evergreen_forests rdfs:label "semi-evergreen forests" .
+ont:deciduous_forests rdfs:label "deciduous forests" .
+ont:Order_Rosales rdfs:label "Rosales" .
+ont:Family_Moraceae rdfs:label "Moraceae" .
+ont:Genus_Artocarpus rdfs:label "Artocarpus" .
+ont:Bronchocela_danieli rdfs:label "Bronchocela danieli" .
+ont:Order_Squamata rdfs:label "Squamata" .
+ont:Family_Agamidae rdfs:label "Agamidae" .
+ont:Genus_Bronchocela rdfs:label "Bronchocela" .
