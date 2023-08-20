@@ -47,9 +47,3 @@ Both ***semantic_web_portal_bundles*** and ***semantic_web_portal_labels*** have
 
 The example ontology was populated based on information from [India Biodiversity Portal](indiabiodiversity.org) and Wikipedia.
 The details about the overall architecture are described in this [paper](https://www.igi-global.com/article/language-agnostic-knowledge-representation-for-a-truly-multilingual-semantic-web/297045).
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
